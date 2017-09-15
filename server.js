@@ -12,6 +12,7 @@ var port = process.env.PORT || 3000;
 var store = require('./views/store.js');
 var redirect = require('./views/redirect.js');
 
+
 if (!process.env.DISABLE_XORIGIN) {
   app.use(function(req, res, next) {
     var allowedOrigins = ['https://narrow-plane.gomix.me', 'https://www.freecodecamp.com'];
@@ -34,7 +35,8 @@ app.route('/')
 		  res.sendFile(process.cwd() + '/views/index.html');
     })
 
-app.route('/new/:uri').get(function(req,res){
+app.route('/new?:uri').get(function(req,res){
+  //res.write(process.env.SECRET);
   store(req,res);
 });
 
