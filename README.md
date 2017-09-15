@@ -19,10 +19,10 @@
         <h3>Usage</h3>
         <h4><span>https://ukapoor-url-shortner.glitch.me/new/https://www.google.com</span></h4>
         <h3>Output</h3>
-        <h4><span>{ "original_url":"https://www.google.com", "short_url":"https://ukapoor-url-shortner.glitch.me/8170" }</span></h4>
+        <h4><span>{ "original_url":"https://www.google.com", "short_url":"https://ukapoor-url-shortner.glitch.me/d1ja" }</span></h4>
         <h1>Example Usage</h1>
         <h3>Usage</h3>
-        <h4><span>https://ukapoor-url-shortner.glitch.me/8170</span></h4>
+        <h4><span>https://ukapoor-url-shortner.glitch.me/d1ja</span></h4>
         <h3>Output</h3>
         <h4><span>https://www.google.com</span></h4>
       </div>
